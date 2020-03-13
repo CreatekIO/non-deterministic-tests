@@ -1,0 +1,3 @@
+---
+skip:
+  - "./spec/features/frontend/rewards/categories_spec.rb:Categories with a multi-category catalogue viewing categories index category has featured products passing a sort by criteria sorts products by given criteria"
