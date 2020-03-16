@@ -4,3 +4,4 @@ skip:
   - "./spec/features/frontend/rewards/categories_spec.rb:Categories with a multi-category catalogue viewing categories index category has featured products orders un-featured products by points value highest to lowest"
   - "./spec/models/registration_question_spec.rb:RegistrationQuestion deleting registration questions with linked answers removes linked answers and answer values"
   - "./spec/models/file_processor/users_file_processor_spec.rb:UsersFileProcessor#process_file with valid value data pre_registration programme with additional_details = true additional_details are false sets consented to true, updates consented_at, & allows User creation"
+  - "./spec/features/admin_backend/cms/custom_layout_article_spec.rb:Custom Layout Articles adding widgets"
