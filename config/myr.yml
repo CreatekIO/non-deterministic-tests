@@ -1,5 +1,25 @@
 ---
 skip:
+  #  Aug 2018
+  - "./spec/features/admin_backend/privacy_policy/editing_privacy_policy_spec.rb:editing a privacy policy admin can switch from disabled to enabled"
+  - "./spec/features/admin_backend/privacy_policy/editing_privacy_policy_spec.rb:editing a privacy policy admin can switch from disabled to enabled"
+
+  # Aug 2018 - whole file was skipped, but I know we spent quite some time building these tests and they are important (order button)
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories product has physical variants user has enough points for order user can place a valid order for variants"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories product has physical variants user has insufficient points for order user cannot order as the order button is disabled"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories product has physical variants user see the points value for the product as the product_programme points"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories product is a voucher variant is not available user cannot add variant to the order"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories product is a voucher user has insufficient points user cannot order as order button is disabled"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories product is a voucher user has enough points for order total quantaties of variants is 0 user cannot place order when total quantity of order is 0"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories product is a voucher user has enough points for order variant is available user can place order for mulitple vouchers"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories viewing a physical product user sees the quantity field defaulted to 1"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories viewing a physical product user sees the points value for the product as the product_programme points"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories viewing a physical product user has enough points for order product is available user can place a valid order"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories viewing a physical product user has enough points for order product is available viewing a prepaid product allows user to order prepaid product"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories viewing a physical product user has enough points for order product is unavailable user cannot order the product as the order button is disabled"
+  - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories viewing a physical product user has insufficient points for order user cannot order as the order button is disabled"
+
+  # March 2020
   - "./spec/features/frontend/rewards/categories_spec.rb:Categories with a multi-category catalogue viewing categories index category has featured products passing a sort by criteria sorts products by given criteria"
   - "./spec/features/frontend/rewards/categories_spec.rb:Categories with a multi-category catalogue viewing categories index category has featured products orders un-featured products by points value highest to lowest"
   - "./spec/models/registration_question_spec.rb:RegistrationQuestion deleting registration questions with linked answers removes linked answers and answer values"
