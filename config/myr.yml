@@ -1,10 +1,17 @@
 ---
 skip:
+  # issue with locale determinator
+  - "./spec/features/admin_backend/paper_trail/checking_versions_spec.rb:paper_trail for versioning not a super_admin cannot see the paper_trail link on super_admin layout"
+
+  # Feb 2018
+  - "./spec/models/file_processor/users_file_processor_spec.rb:UsersFileProcessor#process_file with user data in another language and programme default locale matches language creates registration answers for each user in csv"
+
   #  Aug 2018
   - "./spec/features/admin_backend/privacy_policy/editing_privacy_policy_spec.rb:editing a privacy policy admin can switch from disabled to enabled"
   - "./spec/features/admin_backend/privacy_policy/editing_privacy_policy_spec.rb:editing a privacy policy admin can switch from disabled to enabled"
 
   # Aug 2018 - whole file was skipped, but I know we spent quite some time building these tests and they are important (order button)
+  # Consider rewriting as Cypress tests
   - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories product has physical variants user has enough points for order user can place a valid order for variants"
   - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories product has physical variants user has insufficient points for order user cannot order as the order button is disabled"
   - "./spec/features/frontend/orders/product_order_button_spec.rb:Product Order Button catalogue has categories product has physical variants user see the points value for the product as the product_programme points"
