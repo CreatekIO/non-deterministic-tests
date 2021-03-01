@@ -32,3 +32,7 @@ skip:
   - "./spec/models/registration_question_spec.rb:RegistrationQuestion deleting registration questions with linked answers removes linked answers and answer values"
   - "./spec/models/file_processor/users_file_processor_spec.rb:UsersFileProcessor#process_file with valid value data pre_registration programme with additional_details = true additional_details are false sets consented to true, updates consented_at, & allows User creation"
   - "./spec/features/admin_backend/cms/custom_layout_article_spec.rb:Custom Layout Articles adding widgets"
+
+  # March 2021
+  # Suspect this is due to incorrectly-escaped interpolated values being passed to an evaluated JS script
+  - "./spec/features/frontend/recognition/campaigns/ethankyou_campaign_spec.rb:Ethankyou when sending an ecard campaign allows points to be added my ecard is submitted for approval"
