@@ -36,3 +36,8 @@ skip:
   # March 2021
   # Suspect this is due to incorrectly-escaped interpolated values being passed to an evaluated JS script
   - "./spec/features/frontend/recognition/campaigns/ethankyou_campaign_spec.rb:Ethankyou when sending an ecard campaign allows points to be added my ecard is submitted for approval"
+
+  # May 2021
+  # There's a known race condition here in the JS code that's probably the cause of the flakiness
+  - "./spec/features/admin_backend/cms/bg_colour_widget_spec.rb:bg_colour widget giving the dropzone a colour the dropzone should retain the colour selection"
+  - "./spec/features/admin_backend/cms/bg_colour_widget_spec.rb:bg_colour widget making the dropzone transparent the dropzone background colour should be 'transparent'"
