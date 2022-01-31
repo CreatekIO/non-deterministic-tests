@@ -42,3 +42,7 @@ skip:
   - "./spec/features/admin_backend/cms/bg_colour_widget_spec.rb:bg_colour widget giving the dropzone a colour the dropzone should retain the colour selection"
   - "./spec/features/admin_backend/cms/bg_colour_widget_spec.rb:bg_colour widget making the dropzone transparent the dropzone background colour should be 'transparent'"
   - "./spec/features/admin_backend/cms/bg_colour_widget_spec.rb:bg_colour widget the default dropzone background-colour should be #ffffff (white)"
+  
+  # Jan 2022
+  # CKEditor issue?
+  - "./spec/features/admin_backend/programmes/performance/promotions_spec.rb:Promotions Editing promotion Display allows admin to change promotion description"
