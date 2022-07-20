@@ -46,3 +46,6 @@ skip:
   # Jan 2022
   # CKEditor issue?
   - "./spec/features/admin_backend/programmes/performance/promotions_spec.rb:Promotions Editing promotion Display allows admin to change promotion description"
+
+  # July 2022
+  - "./spec/features/admin_backend/users/approve_spec.rb:Approve pending users Editing a pending user I can edit the profile of a user pending approval"
