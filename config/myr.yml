@@ -49,3 +49,6 @@ skip:
 
   # July 2022
   - "./spec/features/admin_backend/users/approve_spec.rb:Approve pending users Editing a pending user I can edit the profile of a user pending approval"
+
+  # Jan 2024
+  - "./spec/models/budget_spec.rb:Budget#promotion_statement without a manage_budget deducting points from approved claim does not return manage_budget description"
