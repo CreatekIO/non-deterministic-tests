@@ -52,18 +52,3 @@ skip:
 
   # Jan 2024
   - "./spec/models/budget_spec.rb:Budget#promotion_statement without a manage_budget deducting points from approved claim does not return manage_budget description"
-
-  # TEMP
-  - "./spec/services/message_expiry_points_service_spec.rb:MessageExpiryPointsService#send_messages programme has months to expiry programme has 12 months to expiry programme has all pre-expiry messages set up handles sending multiple event emails to a single user"
-  - "./spec/services/user_point_expiry_service_spec.rb:UserPointExpiryService points expiry is months_to_expiry #debit when there are existing expiries and expiries sum neatly to value being debited cancels expiries for least recent dates"
-  - "./spec/services/user_point_expiry_service_spec.rb:UserPointExpiryService points expiry is months_to_expiry #debit when there are existing expiries and value being debited does not align with expiry values cancels expiries for least recent dates"
-  - "./spec/services/message_expiry_points_service_spec.rb:MessageExpiryPointsService#send_messages programme has months to expiry programme has 12 months to expiry programme has all pre-expiry messages set up notifies user for each event"
-  - "./spec/services/message_expiry_points_service_spec.rb:MessageExpiryPointsService#send_messages programme has months to expiry programme has 12 months to expiry programme has all pre-expiry messages set up when expiries overlap notifies user for each event"
-  - "./spec/services/message_expiry_points_service_spec.rb:MessageExpiryPointsService#send_messages programme has months to expiry programme has 12 months to expiry programme just has 30 days message set up just sends enabled messages"
-  - "./spec/services/message_expiry_points_service_spec.rb:MessageExpiryPointsService#send_messages programme has months to expiry programme has 12 months to expiry programme just has 30 days message set up only notifies user for 30 day event"
-  - "./spec/workers/dynamic_date_points_expiry_worker_spec.rb:DynamicDatePointsExpiryWorker#perform_async with months_to_expiry = 12 expires points a year + a day after points received"
-
-  - "./spec/services/list_view_submissions_filter_spec.rb:ListViewSubmissionsFilter when campaign is not marked as private (collects_private_data=false) #filter_by_search_criteria ordering when ordering by dynamic registration date when search term is sent orders correctly"
-  - "./spec/services/list_view_submissions_filter_spec.rb:ListViewSubmissionsFilter when campaign is not marked as private (collects_private_data=false) #filter_by_search_criteria ordering when ordering by dynamic registration date when search term is sent when ordering reversed orders correctly"
-  - "./spec/services/list_view_submissions_filter_spec.rb:ListViewSubmissionsFilter when campaign is not marked as private (collects_private_data=false) #filter_by_search_criteria ordering when ordering by form date select when search term is sent orders correctly"
-  - "./spec/services/list_view_submissions_filter_spec.rb:ListViewSubmissionsFilter when campaign is not marked as private (collects_private_data=false) #filter_by_search_criteria ordering when ordering by form date select when search term is sent when ordering reversed orders correctly"
